@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Form from "../../components/form";
+import TodoForm from "../../components/todoform";
+
 import { Card, Container } from "./to-do-styles";
 
 function List() {
@@ -8,7 +9,7 @@ function List() {
   return (
     <Container>
       <Card>
-        <Form></Form>
+        <TodoForm />
       </Card>
     </Container>
   );
