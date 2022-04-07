@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Card, Container } from "./styles";
 
-function Home() {
+function List() {
   const [count, setCount] = useState(0);
 
   return (
@@ -10,10 +10,10 @@ function Home() {
         <p>
           To<span className="color-text">Do</span>List
         </p>
-        <button>Open your list</button>
+        <button>Open yourss list</button>
       </Card>
     </Container>
   );
 }
 
-export default Home;
+export default List;
