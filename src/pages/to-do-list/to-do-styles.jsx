@@ -20,13 +20,11 @@ export const Card = styled.div`
   p {
     color: #000000bc;
     font-size: 1.6rem;
-    font-weight: 600;
-    background-color: #ffffff;
+    font-weight: 800;
 
     .color-text {
       color: cyan;
       font-weight: 900;
-      background-color: #ffffff;
     }
   }
   button {
