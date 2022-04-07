@@ -1,12 +1,13 @@
 import { useState } from "react";
+import { Container } from "./styles";
 
 function Home() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
-      <h1>safado</h1>
-    </div>
+    <Container>
+      <button>safado</button>
+    </Container>
   );
 }
 
