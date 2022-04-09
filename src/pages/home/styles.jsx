@@ -18,24 +18,28 @@ export const Card = styled.div`
   border-radius: 10px;
 
   p {
-    color: #000000bc;
-    font-size: 1.6rem;
+    color: #000000cc;
+    font-size: 1.8rem;
     font-weight: 600;
     background-color: #ffffff;
 
     .color-text {
-      color: cyan;
+      color: #4700d8;
       font-weight: 900;
       background-color: #ffffff;
     }
   }
+
+  a {
+    margin: 1.5rem;
+  }
   button {
-    margin-top: 2rem;
     padding: 1.1rem;
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 600;
     color: white;
     background-color: #4700d8;
+    cursor: pointer;
   }
 `;

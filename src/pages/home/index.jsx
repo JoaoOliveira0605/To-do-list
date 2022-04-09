@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Card, Container } from "./styles";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [count, setCount] = useState(0);
@@ -10,7 +11,9 @@ function Home() {
         <p>
           To<span className="color-text">Do</span>List
         </p>
-        <button>Open your list</button>
+        <Link to={`List`}>
+          <button>Open your list</button>
+        </Link>
       </Card>
     </Container>
   );
